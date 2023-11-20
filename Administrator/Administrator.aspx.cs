@@ -131,11 +131,7 @@ namespace KarateApplication
             Clear();
         }
 
-        protected void LoginStatus1_LoggingOut(object sender, LoginCancelEventArgs e)
-        {
-            //Redirect the user to the logon page
-            Response.Redirect("logon.aspx", true);
-        }
+        
 
         protected void assignBtn_Click(object sender, EventArgs e)
         {
@@ -202,6 +198,11 @@ namespace KarateApplication
             Refresh();
             //Clear the current text in all text boxes
             Clear();
+        }
+
+        protected void LoginStatus1_LoggingOut1(object sender, LoginCancelEventArgs e)
+        {
+            
         }
     }
 }
