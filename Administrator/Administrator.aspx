@@ -121,7 +121,7 @@
     <p>
         &nbsp;</p>
     <p>
-        <asp:LoginStatus ID="LoginStatus1" runat="server" OnLoggingOut="LoginStatus1_LoggingOut" />
+        <asp:LoginStatus ID="LoginStatus1" runat="server" OnLoggingOut="LoginStatus1_LoggingOut1" />
     </p>
     <p>
         &nbsp;</p>

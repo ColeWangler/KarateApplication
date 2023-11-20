@@ -42,7 +42,7 @@ namespace KarateApplication
 
                     //Our specific pages to send the user
                     if (result.UserType == "Administrator")
-                        Response.Redirect("~/Administrator.aspx");
+                        Response.Redirect("~/Administrator/Administrator.aspx");
                     if (result.UserType == "Instructor")
                         Response.Redirect("~/mywork/Instructor.aspx");
                     if (result.UserType == "Member")
