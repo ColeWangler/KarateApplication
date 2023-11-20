@@ -12,7 +12,8 @@ namespace KarateApplication
     public partial class Administrator : System.Web.UI.Page
     {
         //Our data context and connection to database string
-        string connString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Cole Wangler\\OneDrive - North Dakota University System\\Desktop\\KarateApplication\\App_Data\\KarateSchool.mdf\";Integrated Security=True;Connect Timeout=30";
+        //string connString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Cole Wangler\\OneDrive - North Dakota University System\\Desktop\\KarateApplication\\App_Data\\KarateSchool.mdf\";Integrated Security=True;Connect Timeout=30";
+        string connString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\isaac\\Source\\Repos\\Karate\\App_Data\\KarateSchool.mdf;Integrated Security=True;Connect Timeout=30";
         KarateSchoolDataContext dbcon;
 
         //The refresh method that will refresh the grid views
